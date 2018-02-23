@@ -243,6 +243,7 @@ img {
 
     .sidebar {
         margin-right: 5%;
+        
     }
 
    
@@ -255,13 +256,17 @@ img {
 @media (max-width: 768px) {
     .main-section
      {
+        max-width: 728px;
         width: 80%;
-        margin-right: 20px;
+        float: none;
     }
 
     .sidebar {
+       max-width: 728px;
         width: 80%;
-        /* margin-right: 5%; */
+        margin-left: 10%;
+        float: none;
+        
     }
     
 }
@@ -287,13 +292,19 @@ img {
     }
 
     nav a {
+        position: static;
         padding-left: 40px;
-        margin-left: 70px;
+        margin-left: 50px;
+        margin-right: 5%;
     }
 
     img {
         width: 90%;
         height: 30%;
+    }
+
+    header {
+        
     }
     
 }
