@@ -292,7 +292,7 @@ img {
     }
 
     nav a {
-        position: static;
+        
         padding-left: 40px;
         margin-left: 50px;
         margin-right: 5%;
@@ -304,7 +304,7 @@ img {
     }
 
     header {
-        
+        position: static;                
     }
     
 }
